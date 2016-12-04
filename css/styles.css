@@ -1,13 +1,73 @@
-.fa .fa-linkedin-square {
 
-	color: blue;
+/*NAVBAR*/
+
+.navbar{
+
+	padding-top: 15px;
+	background-color: transparent;
+	transition: background-color .3s;
 }
 
-.navbar-default .navbar-toggle {
-	background-color: white;
+/*hamburger*/
+.navbar-toggle {
+	background-color: black;
 }
 
 .icon-bar {
 
 	background-color: #0fb5b3;
 }
+
+/*nav links*/
+ul li {
+
+	font-size: 18px;
+}
+
+.nav>li>a {
+
+	color:white;
+}
+
+.nav>li>a:hover {
+
+	color:red;
+	background-color: transparent;
+}
+
+.nav>li>a:focus {
+
+	color:red;
+	background-color: transparent;
+}
+
+.nav>li>a {
+
+	line-height: 26px;
+}
+
+/*END NAVBAR*/
+
+
+body {
+
+	background-color: pink;
+}
+
+.jumbotron {
+
+	/*background-image: url('../images/tiger.jpg');*/
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
