@@ -22,6 +22,7 @@
 ul li {
 
 	font-size: 18px;
+	text-shadow: 2px 2px black;
 }
 
 .nav>li>a {
@@ -48,19 +49,90 @@ ul li {
 
 /*END NAVBAR*/
 
-
-body {
-
-	background-color: pink;
-}
+/*JUMBOTRON*/
 
 .jumbotron {
+ 	         
 
-	/*background-image: url('../images/tiger.jpg');*/
+	background-image:
+        linear-gradient(
+                     rgba(0,0,0, 0.2), 
+                     rgba(0,0,0, 0.2)),
+        url('../images/heroBlur.jpg');
+     /*background-image: url('../images/heroBlur.jpg');*/
 	background-size: cover;
+	padding-top: 14em;
+	padding-bottom: 25em;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+	margin-bottom: 0;
+	
+
 }
 
 
+/*medium breakpoint*/
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+
+	.jumbotron {
+
+		background-position: 55% 40%;
+		background-size: 1300px;
+	}
+
+}
+
+/*small breakpoint*/
+@media (max-width: 992px) and (min-width: 768px) {
+
+	.jumbotron {
+
+		background-position: 55% 100%;
+		background-size: 1250px;
+	}
+	
+}
+
+/*extra small breakpoint*/
+@media (max-width: 768px) {
+
+	.jumbotron {
+
+		background-position: 75% 100%;
+		background-size: 1200px;
+		padding-top: 10em;
+		padding-bottom: 440px;
+	}
+
+	div #bs-example-navbar-collapse-1{
+		
+
+		background: rgba(48,48,48,.93);
+	}
+
+}
+
+
+h1.animated.bounce {
+
+	color: white;
+	text-shadow: 2px 0px black;
+
+}
+
+/*PROFILE-TOP*/
+
+.profile-top {
+
+	padding-top: 100px;
+	padding-bottom: 165px;
+	background-color: purple;
+	color: white;
+	/*position:relative;
+	z-index: 3;*/
+}
 
 
 

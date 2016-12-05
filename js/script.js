@@ -9,7 +9,7 @@ $(window).on('scroll', function() {
 
 
 		$navbar.css({
-			'background-color': 'green'
+			'background-color': 'black'
 		});
 
 		console.log(topDistance);
