@@ -1,4 +1,5 @@
 
+// NAV BACKGROUND SCROLL APPEAR
 
 $(window).on('scroll', function() {
 
@@ -20,4 +21,13 @@ $(window).on('scroll', function() {
 		});
 	}
 
+});
+
+// SCROLLSPY
+
+$(document).ready(function(){
+    $("body").scrollspy({
+		target: "#myNavbar",
+		offset: 70
+	}) 
 });

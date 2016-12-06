@@ -1,4 +1,10 @@
 
+body {
+
+	position: relative;
+	height: 100%;
+}
+
 /*NAVBAR*/
 
 .navbar{
@@ -19,33 +25,33 @@
 }
 
 /*nav links*/
-ul li {
+.nav a:link {
 
 	font-size: 18px;
-	text-shadow: 2px 2px black;
-}
-
-.nav>li>a {
-
-	color:white;
-}
-
-.nav>li>a:hover {
-
-	color:red;
-	background-color: transparent;
-}
-
-.nav>li>a:focus {
-
-	color:red;
-	background-color: transparent;
-}
-
-.nav>li>a {
-
+	text-shadow: 2px 2px 1px black;
+	color: white;
 	line-height: 26px;
 }
+
+.nav a:visited {
+
+	font-size: 18px;
+	text-shadow: 2px 2px 1px black;
+	color: white;
+}
+
+.nav li a:hover {
+
+	color:red;
+	background-color: transparent;
+}
+
+.nav li a:active {
+
+	color:red;
+
+}
+
 
 /*END NAVBAR*/
 
@@ -59,7 +65,6 @@ ul li {
                      rgba(0,0,0, 0.2), 
                      rgba(0,0,0, 0.2)),
         url('../images/heroBlur.jpg');
-     /*background-image: url('../images/heroBlur.jpg');*/
 	background-size: cover;
 	padding-top: 14em;
 	padding-bottom: 25em;
@@ -71,6 +76,106 @@ ul li {
 
 }
 
+
+h1.animated.bounce {
+
+	color: white;
+	text-shadow: 2px 0px 10px black;
+
+}
+
+/*PROFILE-TOP*/
+
+.profile-top {
+
+	padding-top: 100px;
+	padding-bottom: 165px;
+	background-color: purple;
+	color: white;
+	position:relative;
+	z-index: 3;
+}
+
+h3 {
+
+	line-height: 1.5;
+}
+
+.profilePicHolder {
+			
+	border-color: white;
+	border-style: solid;
+	border-width: 5px;
+	position: absolute;
+		bottom: -85px;
+		left: 50%;
+		margin-left: -85px;
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+
+	background-image: url("../images/profilePic1.jpg");
+	background-position: 50% 35%;
+	background-size: 300px;
+
+}
+
+/*PROFILE BOTTOM*/
+
+.profile-bottom {
+
+	padding-top: 165px;
+	padding-bottom: 100px;
+	background-color: white;
+	position: relative;
+	z-index:2;
+}
+
+.personal-blurb {
+
+	box-sizing: border-box;
+
+}
+
+.personal-blurb i {
+
+	color: purple;
+	border: 2px solid purple;
+	border-radius: 50%;
+	padding: 30px;
+}
+
+
+.icons {
+
+	font-size: 50px;
+}
+
+
+h4 {
+
+	line-height: 1.4;
+}
+
+p.text-muted {
+
+	line-height: 1.6;
+	padding-top: 6px;
+	font-size: 16px;
+}
+
+.icon-padding {
+
+	padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+/*MEDIA QUERIES*/
 
 /*medium breakpoint*/
 
@@ -91,7 +196,29 @@ ul li {
 
 		background-position: 55% 100%;
 		background-size: 1250px;
+
 	}
+
+	h1.animated.bounce{
+
+		font-size: 53px;
+		word-wrap: break-word;
+	}
+
+	.personal-blurb {
+
+		padding-top: 40px;
+	}
+
+	.no-pad-top {
+
+		padding-top: 0;
+	}
+
+	nav li a {
+
+	line-height: 26px;
+}
 	
 }
 
@@ -112,27 +239,22 @@ ul li {
 		background: rgba(48,48,48,.93);
 	}
 
+	.personal-blurb {
+
+		padding-top: 40px;
+	}
+
+	.no-pad-top {
+
+		padding-top: 0;
+	}
+
+	nav li a {
+
+	line-height: 26px;
+}
 }
 
-
-h1.animated.bounce {
-
-	color: white;
-	text-shadow: 2px 0px black;
-
-}
-
-/*PROFILE-TOP*/
-
-.profile-top {
-
-	padding-top: 100px;
-	padding-bottom: 165px;
-	background-color: purple;
-	color: white;
-	/*position:relative;
-	z-index: 3;*/
-}
 
 
 

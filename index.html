@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+
 	<meta charset="utf-8">
     <!-- IE Edge Meta Tag -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,15 +20,14 @@
   <!-- animate css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <title>Bootstrap Portfolio</title>
+
 </head>
 
-
-
-<body>
+<body> 
 
 <!-- NAVBAR -->
 
-	<nav class="navbar navbar-fixed-top" role="navigation">
+	<nav class="navbar navbar-fixed-top" id="top myNavbar" role="navigation">
 		<div class="container">
 		      	<div class="navbar-header">
 		      		<!-- toggle button icon -->
@@ -37,54 +38,105 @@
 			        </button>                        
 			      <!-- end toggle button icon -->
 			      <!-- brand top left -->
-		        <a class="navbar-brand page-scroll" href="#page-top">CASSANDRA</a>
+		        <a class="navbar-brand" href="#top">CASSANDRA</a>
 		     	</div>
 				<!-- nav menu top right -->
-		    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	                <ul class="nav navbar-nav navbar-right text-center">
-	                    <li>
-	                        <a class="page-scroll" href="#home">Home</a>
-	                    </li>
-	                    <li>
-	                        <a class="page-scroll" href="#profile">Profile</a>
-	                    </li>
-	                    <li>
-	                        <a class="page-scroll" href="#skills">Skills</a>
-	                    </li>
-	                    <li>
-	                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-	                    </li>
-	                    <li>
-	                        <a class="page-scroll" href="#contact">Contact</a>
-	                    </li>
-	                </ul> 
-	        </div>
-	    </nav>
+			    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		                <ul class="nav navbar-nav navbar-right text-center">
+		                    <li>
+		                        <a href="#home">Home</a>
+		                    </li>
+		                    <li>
+		                        <a href="#profile">Profile</a>
+		                    </li>
+		                    <li>
+		                        <a href="#skills">Skills</a>
+		                    </li>
+		                    <li>
+		                        <a href="#portfolio">Portfolio</a>
+		                    </li>
+		                    <li>
+		                        <a href="#contact">Contact</a>
+		                    </li>
+		                </ul> 
+		        </div>
+		</div>
+	</nav>
 
 <!-- NAVBAR END -->
 
 <!-- JUMBOTRON HERO -->
-
-	<div class="jumbotron">
-	  		<div class="container"> 
-	    		<h1 class="animated bounce">Hi, I'm Cassandra <br> and I am a Front-end <br>Developer.</h1>
-	  </div>
-	</div>
+		<div class="jumbotron" id="home">
+		  		<div class="container"> 
+		    		<h1 class="animated bounce">Hi, I'm Cassandra <br> and I am a Front-end <br>Developer.</h1>
+		  </div>
+		</div>
 
 <!-- END JUMBOTRON HERO -->
 
-<!-- PROFILE PARAGRAPH -->
-	
-	<section class="profile-top">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<h1>To Sum Me Up...</h1>
-					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quos qui laborum, quasi dolorum, nobis distinctio animi at tenetur voluptate. Consectetur repellendus delectus, at sint veniam facilis dolorum ut eaque.</h3>
+<!-- PROFILE SECTION -->
+	<!-- top -->
+		<section class="profile-top" id="profile">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<h1>About Me _</h1>
+						<h3>I am a designer, a developer, and an aspiring digital nomad. I’m a passionate, driven, ambitious woman who will stop at nothing to achieve her goals. I firmly believe we are the captains of our own ships and whatever it is we want is achievable as long as we have the passion, drive, and grit to get there and make it happen.</h3>
+					</div>
 				</div>
 			</div>
+
+			<!-- middle circle pic -->
+			<div class="profilePicHolder"></div>
+		</section>
+
+		<!-- bottom -->
+		<section class="profile-bottom">
+			<div class="container">
+				<div class="row">
+					<!-- digital nomad col -->
+					<div class="col-md-4 text-center">
+						<div class="personal-blurb no-pad-top">
+							<span class="icons">
+								<i class="fa fa-globe icon-padding" aria-hidden="true"></i>
+							</span>
+							<h4>Why I Aspire to be a <br> Digital Nomad</h4>
+							<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam, ex maxime cupiditate officia veniam aliquam temporibus itaque doloremque sunt ipsam et, voluptatum eveniet provident esse iure est assumenda commodi.</p>
+						</div>
+					</div>
+					<!-- nicaragua col -->
+					<div class="col-md-4 text-center">
+						<div class="personal-blurb">
+							<span class="icons">
+								<i class="fa fa-globe icon-padding" aria-hidden="true"></i>
+							</span>
+							<h4>Why I Aspire to be a <br> Digital Nomad</h4>
+							<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam, ex maxime cupiditate officia veniam aliquam temporibus itaque doloremque sunt ipsam et, voluptatum eveniet provident esse iure est assumenda commodi.</p>
+						</div>
+					</div>
+					<!-- smile col -->
+					<div class="col-md-4 text-center">
+						<div class="personal-blurb">
+							<span class="icons">
+								<i class="fa fa-smile-o icon-padding" aria-hidden="true"></i>
+							</span>
+							<h4 class="animated bounce">Why I <br> Smile</h4>
+							<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam, ex maxime cupiditate officia veniam aliquam temporibus itaque doloremque sunt ipsam et, voluptatum eveniet provident esse iure est assumenda commodi.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	<!-- END PROFILE SECTION -->
+	
+<!-- JUMBOTRON HERO -->
+
+		<div class="jumbotron" id="skills">
+		  		<div class="container"> 
+		 			<h1 class="animated bounce">Testing the <br> Scrollspy......</h1>
+		  </div>
 		</div>
-	</section>
 
 
 
