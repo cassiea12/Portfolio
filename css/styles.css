@@ -52,6 +52,11 @@ body {
 
 }
 
+#myNavbar li.active {
+	background: purple;
+	border-radius: 5px;
+}
+
 
 /*END NAVBAR*/
 

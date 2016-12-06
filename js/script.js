@@ -26,8 +26,13 @@ $(window).on('scroll', function() {
 // SCROLLSPY
 
 $(document).ready(function(){
-    $("body").scrollspy({
+	console.log('running');
+    $('body').scrollspy({
 		target: "#myNavbar",
 		offset: 70
-	}) 
+	});
+	$('#myNavbar').on('activate.bs.scrollspy', function () {
+		console.log('navbar moving');
+	})
+
 });
