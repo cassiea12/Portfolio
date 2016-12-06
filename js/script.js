@@ -1,38 +1,27 @@
+// Add smooth scrolling on all links inside the navbar
+var $navItem = $('#myNavbar a');
 
-// NAV BACKGROUND SCROLL APPEAR
+//When a user clicks a nav item...
+$navItem.on('click', function(event) {
 
-$(window).on('scroll', function() {
+	// if there is a hash tag
+	if (this.hash !== "") {
 
-	var topDistance= $(document).scrollTop();
-	var $navbar = $('.navbar');
+		// stop the normal link from firing
+		event.preventDefault();
 
-	if(topDistance>100) {
+		// store the hash tag in a local variable
+		var hash = this.hash;
 
+		// scroll the document from the current location to the location of the hastag.
+		$('html, body').animate({
 
-		$navbar.css({
-			'background-color': 'black'
+			scrollTop: $(hash).offset().top
+
+		}, 800, function(){
+
+			window.location.hash = hash;  // Update the hash tag in the location bar
+
 		});
-
-		console.log(topDistance);
 	}
-	else {
-		$navbar.css({
-			'background-color': 'transparent'
-		});
-	}
-
-});
-
-// SCROLLSPY
-
-$(document).ready(function(){
-	console.log('running');
-    $('body').scrollspy({
-		target: "#myNavbar",
-		offset: 70
-	});
-	$('#myNavbar').on('activate.bs.scrollspy', function () {
-		console.log('navbar moving');
-	})
-
 });
