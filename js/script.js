@@ -29,9 +29,6 @@ $navItem.on('click', function(event) {
 });
 
 // GOOGLE MAP EMBED
-<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCdKo8Y7vtsjdrw5XR50VIy9scopdMnrTk&sensor=false&extension=.js'></script> 
- 
-<script> 
     google.maps.event.addDomListener(window, 'load', init);
     var map;
     function init() {
@@ -83,5 +80,4 @@ $navItem.on('click', function(event) {
 link = '';     }
 
 }
-</script>
 
