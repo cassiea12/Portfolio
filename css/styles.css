@@ -59,12 +59,12 @@ h1.animated.slideInLeft {
 	font-weight: 700;
 }
 h1 span {
-	color: rgb(18,212,209);
+	color: #35dad8;
 }
 /*END JUMBOTRON*/
 /*PROFILE TOP HALF*/
 .profile-top {
-	background-color: rgba(18,212,209,0.63);
+	background-color: #35dad8;
 	color: white;
 	padding-top: 100px;
 	padding-bottom: 165px;
@@ -106,9 +106,9 @@ h3 {
 	box-sizing: border-box;
 }
 .personal-blurb i {
-	border: 2px solid rgba(18,212,209,0.63);
+	border: 2px solid #35dad8;
 	border-radius: 50%;
-	color: rgba(18,212,209,0.63);
+	color: #35dad8;
 	padding: 30px;
 }
 .icons {
@@ -130,7 +130,7 @@ p.text-muted {
 /*END PROFILE BOTOM HALF*/
 /*SKILLS*/
 .progress-bar.progress-bar-success {
-	background-color: rgb(105, 228, 226);
+	background-color: #35dad8;
 	position: relative;
 	padding-left: 20px;
 }
@@ -175,7 +175,7 @@ p.text-muted {
 	color: #ffffff;
 }
 .btn-lg:hover {
-	background-color: #12d4d1;
+	background-color: #35dad8;
 }
 .btn-lg a:hover {
 	text-decoration: none;
