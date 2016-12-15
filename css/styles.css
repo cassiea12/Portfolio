@@ -10,11 +10,9 @@ body {
 	padding-top: 15px;
 	transition: background-color .3s;
 }
-/*Navbar Color when Scrolled*/
 .navbar.affix {
-	background-color: rgba(0,0,0,.82);
+	background-color: #2d2d2d;
 }
-/*hamburger*/
 .navbar-toggle {
 	background-color: #ffffff;
 }
@@ -26,6 +24,7 @@ body {
 	font-size: 18px;
 	line-height: 26px;
 	text-shadow: 1px 1px 1px black;
+	font-weight: 600;
 }
 .nav a:visited {
 	color: white;
@@ -37,7 +36,10 @@ body {
 	color:#12d4d1;
 }
 #myNavbar li.active a {
-	color: #12d4d1;
+	color: rgb(18, 212, 209);
+}
+.navbar-brand {
+	padding-top: 0;
 }
 /*END NAVBAR*/
 /*JUMBOTRON*/
@@ -49,15 +51,18 @@ body {
 	margin-bottom: 0;
 	padding-top: 14em;
 	padding-bottom: 25em;
-/*	position: relative;*/
 }
 h1.animated.slideInLeft {
 	animation-delay: .6s;
 	color: #ffffff;
-	text-shadow: 4px 4px 5px #000000;
-	font-weight: 600;
+	text-shadow: 2px 2px 8px #000000;
+	font-weight: 700;
 }
-/*PROFILE-TOP*/
+h1 span {
+	color: rgb(18,212,209);
+}
+/*END JUMBOTRON*/
+/*PROFILE TOP HALF*/
 .profile-top {
 	background-color: rgba(18,212,209,0.63);
 	color: white;
@@ -67,11 +72,13 @@ h1.animated.slideInLeft {
 	z-index: 3;
 }
 .profile-top h1 {
-	color: #000000;
+	color: #333;
+	font-weight: 600;
 }
 h3 {
 	line-height: 1.5;
 }
+/*END PROFILE TOP HALF*/
 .profilePicHolder {		
 	background-image: url("../images/profilePic1.jpg");
 	background-position: 50% 35%;
@@ -87,7 +94,7 @@ h3 {
 		margin-left: -85px;
 	width: 170px;
 }
-/*PROFILE BOTTOM*/
+/*PROFILE BOTTOM HALF*/
 .profile-bottom {
 	background-color: white;
 	padding-top: 165px;
@@ -111,7 +118,6 @@ h4 {
 	line-height: 1.4;
 	padding-top: 15px;
 	padding-bottom: 12px;
-	color: #000000;
 }
 p.text-muted {
 	font-size: 16px;
@@ -121,42 +127,49 @@ p.text-muted {
 .icon-padding {
 	padding-bottom: 20px;
 }
+/*END PROFILE BOTOM HALF*/
 /*SKILLS*/
 .progress-bar.progress-bar-success {
+	background-color: rgb(105, 228, 226);
 	position: relative;
 	padding-left: 20px;
-	background-color: rgb(105, 228, 226);
 }
 .progress-bar h5 {
-	position: absolute;
-	margin: 0;
-	line-height: 46px;
 	font-size: 16px;
+	line-height: 46px;
+	margin: 0;
+	position: absolute;
 }
 .progress {
-	height: 46px;
+	background-color: #333;
 	border-radius: 0;
-	background-color: #000000;
+	height: 46px;
 }
 #skills {
-	padding-top: 100px;
-	padding-bottom: 80px;
 	background-color: #EEE;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding: 120px 40px 80px 40px;
 }
 #skills p {
-	padding-bottom: 20px;
+	font-size: 16px;
+	line-height: 1.6;
+	padding-bottom: 20px;	
+}
+#skills h1 {
+	font-weight: 600;
+	margin-top: 0;
 }
 #skills .container {
 	padding-top: 80px;
 }
+#skills .padding-bottom {
+	padding-bottom: 3.5em;
+}
 .btn-lg{
-	padding-bottom: 8px;
 	background-color: #fb8b18;
+	border: none;
 	padding-left: 30px;
 	padding-right: 30px;
-	border: none;
+	padding-bottom: 8px;
 }
 .btn-lg span {
 	color: #ffffff;
@@ -167,55 +180,60 @@ p.text-muted {
 .btn-lg a:hover {
 	text-decoration: none;
 }
+/*END SKILLS*/
 /*PORTFOLIO*/
 .boxlight{
 	height: 100%;
 	width: 100%;
 }
 .mywork h1 {
-	text-align: center;
-	padding-bottom: 2em;
+	font-weight: 600;
+	padding-bottom: 3em;
+	text-align: center;		
 }
 #portfolio{
 	padding-bottom: 11em;
-	padding-top: 9.5em;
+	padding-top: 6.5em;
 }
 #portfolio .col-md-4 {
 	padding: 0;
 }
+/*END PORTFOLIO*/
 /*BLOG*/
 #blog {
 	background-image: url('../images/palms.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	width: 100%;
 	height: 39em;
+	width: 100%;
 }	
 #blog h1 {
 	color: #ffffff;
-	text-shadow: 4px 4px 5px #000000;
 	font-weight: 700;
-	padding-top: 4.1em;
-	text-align: center;
-	padding-bottom: 1em;
 	font-size: 3.4em;
+	padding-top: 4.1em;
+	padding-bottom: 1em;
+	text-shadow: 2px 2px 8px #000000;
+	text-align: center;	
 }
 .btn.btn-default.btn-lg.blog-btn {
-	padding-bottom: 12px;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-top: 12px;
+	padding-bottom: 13px;
+	padding-left: 55px;
+	padding-right: 55px;
+	padding-top: 13px;
 }
+/*END BLOG*/
 /*CONTACT FORM*/
 #contact {
+	background-color: rgba(18,212,209,0.2);
 	padding-top: 4em;
 	padding-bottom: 5em;
-	background-color: rgba(18,212,209,0.2);
 }
 #contact h1 {
-	text-align: center;
+	font-weight: 600;
 	padding-bottom: 1em;
+	text-align: center;	
 }
 .form-control {
 	height: 45px;
@@ -223,13 +241,29 @@ p.text-muted {
 textarea.form-control {
 	height: 165px;
 }
+/*END CONTACT FORM*/
 /*MAP*/
+#map {
+    height:250px;
+    width:1000px;
+}
+.gm-style-iw * {
+    display: block;
+    width: 100%;
+}
+.gm-style-iw h4, .gm-style-iw p {
+    margin: 0;
+    padding: 0;
+}
+.gm-style-iw a {
+    color: #4272db;
+}
 .embed-container {
-	position: relative;
-	padding-bottom: 35%; 
 	height: 0;
-	overflow: hidden;
 	max-width: 100%;
+	overflow: hidden;
+	padding-bottom: 26.25%;
+	position: relative;	
 }
 .embed-container iframe, .embed-container object, .embed-container embed {
 	position: absolute;
@@ -241,17 +275,21 @@ textarea.form-control {
 .container-fluid .map {
 	padding: 0;
 }
+/*END MAP*/
 /*FOOTER*/
 #footer {
 	padding-top: 1.5em;
 	padding-bottom: .6em;
-	background-color: black;
+	background-color: #333;
 }
 #footer p {
 	text-align: center;
 	color: white;
+	font-size: .85em;
 }
-
+#footer i {
+	color: #69E4E2;
+}
 
 
 
@@ -280,12 +318,14 @@ textarea.form-control {
 		background-position: 55% 40%;
 		background-size: 1300px;
 	}
+	.jumbotron h1 {
+		font-size: 55px;
+	}
 }
 /*small breakpoint*/
 @media (max-width: 992px) and (min-width: 768px) {
-	h1.animated.bounce{
-		font-size: 53px;
-		word-wrap: break-word;
+	.jumbotron h1 {
+		font-size: 50px;
 	}
 	.jumbotron {
 		background-position: 55% 100%;
@@ -300,11 +340,24 @@ textarea.form-control {
 	.personal-blurb {
 		padding-top: 40px;
 	}
+	#blog h1 {
+		padding-top: 4.0em;
+	}
+	#portfolio {
+		padding-top: 5.7em;
+		padding-bottom: 5em;
+	}
+	#portfolio h1 {
+		padding-bottom: 2em;
+	}
+	.boxlight {
+		padding-bottom: 4.5em;
+	}
 }
 /*extra small breakpoint*/
 @media (max-width: 768px) {
 	div #bs-example-navbar-collapse-1{
-		background: rgba(48,48,48,.93);
+		background: #2d2d2d;
 	}
 	.jumbotron {
 		background-position: 75% 100%;
@@ -320,6 +373,23 @@ textarea.form-control {
 	}
 	.personal-blurb {
 		padding-top: 40px;
+	}
+	#blog {
+		background-position: 30% 50%;
+	}
+	#blog h1 {
+		padding-top: 3.4em;
+		font-size:3.0em;
+	}
+	#portfolio {
+		padding-top: 5.7em;
+		padding-bottom: 5em;
+	}
+	#portfolio h1 {
+		padding-bottom: 2em;
+	}
+	.boxlight {
+		padding-bottom: 4.5em;
 	}
 }
 

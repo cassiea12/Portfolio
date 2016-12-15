@@ -2,7 +2,6 @@
 <html>
 
 <head>
-
 	<meta charset="utf-8">
     <!-- IE Edge Meta Tag -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,127 +21,102 @@
   <!-- lightbox -->
   <link href="css/lightbox.css" rel="stylesheet">
   <title>Bootstrap Portfolio</title>
-
 </head>
 
 <body data-spy="scroll" data-target="#myNavbar" data-offset="70">
-<!-- NAVBAR -->
+	<!-- NAVBAR -->
 	<nav class="navbar navbar-fixed-top" id="myNavbar" role="navigation" data-spy="affix" data-offset-top="100">
 		<div class="container">
-		      	<div class="navbar-header">
-		      		<!-- toggle button icon -->
-			      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				        <span class="icon-bar black"></span>
-				        <span class="icon-bar black"></span>
-				        <span class="icon-bar black"></span>
-			        </button>                        
+		    <div class="navbar-header">
+		      	<!-- toggle button icon -->
+			    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				    <span class="icon-bar black"></span>
+				    <span class="icon-bar black"></span>
+				    <span class="icon-bar black"></span>    
+			    </button>                        
 			      <!-- end toggle button icon -->
-			      <!-- brand top left -->
-		        	<a class="navbar-brand" href="#top">CASSANDRA</a>
-		     	</div>
+			      <!-- logo -->
+		        <a class="navbar-brand" href="#top"><img src="images/logo.png"></a>
+		    </div>
 				<!-- nav menu top right -->
-			    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		                <ul class="nav navbar-nav navbar-right text-center">
-		                    <li>
-		                        <a href="#home">Home</a>
-		                    </li>
-		                    <li>
-		                        <a href="#profile">Profile</a>
-		                    </li>
-		                    <li>
-		                        <a href="#skills">Skills</a>
-		                    </li>
-		                    <li>
-		                        <a href="#portfolio">Portfolio</a>
-		                    </li>
-		                    <li>
-		                        <a href="#contact">Contact</a>
-		                    </li>
-		                </ul> 
-		        </div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		        <ul class="nav navbar-nav navbar-right text-center">
+	                <li><a href="#home">Home</a></li>
+		            <li><a href="#profile">Profile</a></li>
+	                <li><a href="#skills">Skills</a></li>
+	                <li><a href="#portfolio">Portfolio</a></li>
+	               	<li><a href="#contact">Contact</a></li>    
+	            </ul> 
+		    </div>
 		</div>
 	</nav>
-
-<!-- NAVBAR END -->
-
-<!-- JUMBOTRON HERO -->
+	<!-- NAVBAR END -->
+	<!-- JUMBOTRON HERO -->
 	<div id="top">
 		<div class="jumbotron" id="home">
-		  		<div class="container"> 
-		    		<h1 class="animated slideInLeft">Hi, I'm Cassandra <br> and I am a Front-end <br>Developer.</h1>
-		    	</div>
+		  	<div class="container"> 
+		    	<h1 class="animated slideInLeft">Hi, I'm Cassandra <br> and I am a <span>Front-end <br>Developer.</span></h1>
+		    </div>
 		</div>
 	</div>
-
-<!-- END JUMBOTRON HERO -->
-
-<!-- PROFILE SECTION -->
-	<!-- top -->
-
+	<!-- END JUMBOTRON HERO -->
+	<!-- PROFILE TOP HALF-->
 	<section class="profile-top" id="profile">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 text-center">
-							<h1 class="animated fadeInUp">About Me _</h1>
-							<h3 class="animated fadeInUp">I am a designer, a developer, and an aspiring digital nomad. I’m a passionate, driven, ambitious woman who will stop at nothing to achieve her goals. I firmly believe we are the captains of our own ships and whatever it is we want is achievable as long as we have the passion, drive, and grit to get there and make it happen.</h3>
-						</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<h1 class="animated fadeInUp">About Me</h1>
+					<h3 class="animated fadeInUp">I am a front-end developer, and an aspiring digital nomad. I’m a passionate, driven, ambitious woman who will stop at nothing to achieve her goals. I firmly believe we are the captains of our own ships and whatever it is we want is achievable as long as we have the passion, drive, and grit to get there and make it happen.</h3>
+				</div>
+			</div>
+		</div>
+		<!-- circle pic -->
+		<div class="profilePicHolder"></div>
+	</section>
+	<!-- PROFILE BOTTOM HALF -->
+	<section class="profile-bottom">
+		<div class="container">
+			<div class="row">
+				<!-- digital nomad col -->
+				<div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-0 text-center">
+					<div class="personal-blurb no-pad-top">
+						<span class="icons"><i class="fa fa-globe icon-padding" aria-hidden="true"></i></span>			
+						<h4>I Aspire to be a Digital Nomad</h4>
+						<p class="text-muted">I want to be free from the 9-5 "slave-save-retire" life style because we are never guaranteed tomorrow so I want to live fully in the present now... to live a life full of travel and adventure in the by working remotely. I desire to see new lands, experience new cultures, and speak new languages. To travel is to truly live. Life is too short, and the world is too big to stay in one place.</p>
 					</div>
 				</div>
-
-				<!-- middle circle pic -->
-				<div class="profilePicHolder"></div>
-			</section>
-
-			<!-- bottom -->
-			<section class="profile-bottom">
-				<div class="container">
-					<div class="row">
-						<!-- digital nomad col -->
-						<div class="col-md-4 text-center">
-							<div class="personal-blurb no-pad-top">
-								<span class="icons">
-									<i class="fa fa-globe icon-padding" aria-hidden="true"></i>
-								</span>
-								<h4>Why I Aspire to be a <br> Digital Nomad</h4>
-								<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam, ex maxime cupiditate officia veniam aliquam temporibus itaque doloremque sunt ipsam et, voluptatum eveniet provident esse iure est assumenda commodi.</p>
-							</div>
-						</div>
-						<!-- nicaragua col -->
-						<div class="col-md-4 text-center">
-							<div class="personal-blurb">
-								<span class="icons">
-									<i class="fa fa-globe icon-padding" aria-hidden="true"></i>
-								</span>
-								<h4>Why I Aspire to be a <br> Digital Nomad</h4>
-								<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam, ex maxime cupiditate officia veniam aliquam temporibus itaque doloremque sunt ipsam et, voluptatum eveniet provident esse iure est assumenda commodi.</p>
-							</div>
-						</div>
-						<!-- smile col -->
-						<div class="col-md-4 text-center">
-							<div class="personal-blurb">
-								<span class="icons">
-									<i class="fa fa-smile-o icon-padding" aria-hidden="true"></i>
-								</span>
-								<h4 class="animated bounce">Why I <br> Smile</h4>
-								<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam, ex maxime cupiditate officia veniam aliquam temporibus itaque doloremque sunt ipsam et, voluptatum eveniet provident esse iure est assumenda commodi.</p>
-							</div>
-						</div>
+				<!-- coding col -->
+				<div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-0 text-center">
+					<div class="personal-blurb">
+						<span class="icons"><i class="fa fa-code" aria-hidden="true"></i></span>							
+						<h4>I'm Addicted to Coding</h4>
+						<p class="text-muted">I am a visual person who loves puzzles and brain teasers. Front-end development is just that! It involves hours upon hours of coding, frameworks, debugging... all to recreate a mockup design. I am honestly addicted to front-end development. It is easy to lose my sense of time in the world of extreme focus and concentration when coding. It is not work, it is a passion. </p>
 					</div>
 				</div>
-			</section>		
+				<!-- smile col -->
+				<div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-0 text-center">
+					<div class="personal-blurb">
+						<span class="icons"><i class="fa fa-smile-o icon-padding" aria-hidden="true"></i></span>			
+						<h4>I Can't Help But Smile</h4>
+						<p class="text-muted">I smile all day, everyday, on bad days, and good days. No matter my mood, smiling keeps me staying positive and happy. I smile to family, friends, and strangers. A smile is contagious and something I want to spread to others out in the world. When traveling to countries with languages I don't know, I smile because we all smile in the same language. It is the universal language of kindness.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>		
 	<!-- END PROFILE SECTION -->
-	
 	<!-- SKILLS SECTION -->
 	<div class="container-fluid" id="skills">
 		<div class="row">
-			<div class="col-md-6">
-				<h1>Let's Get Technical</h1> <br>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam amet, aspernatur maiores illum debitis tenetur, ab corrupti minus molestias nobis quam consequatur sed. Molestiae voluptatibus obcaecati soluta quis molestias nulla. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi vel consequuntur eaque distinctio nemo, quas aut tenetur. Eligendi veritatis saepe, adipisci pariatur dolores commodi neque maxime, voluptate, non minima necessitatibus.</p>
+			<div class="col-sm-6 padding-bottom">
+				<h1>Let's Get Technical</h1><br>
+				<p>I write code that conforms to the W3C's web standards and semantic best practices. I use technologies like HTML5, CSS3, Javascript, and jQuery, to transform static artwork into mobile first, pixel prefect, interactive and fully functional interfaces. I make use of HTML semantics to improve screen-reader accessibility and SEO. In my CSS3 code, I aim for well-organized non-repetitive stylesheets. I use Bootstrap, as the starting point for my designs and take it from there with custom modifications. I use Javascript and jQuery to create interactivity and enhance User Interaction and User Experience.
+				</p>
 				<div class="btn btn-default btn-lg l-btn">
 					<a href="https://www.linkedin.com/in/cassandra-amantite-a69966111" target="_blank"><span><i class="fa fa-linkedin-square" aria-hidden="true"></i>   My LinkedIn</span></a>
 				</div>	 	
 			</div>
-			<div class="col-md-6">
+			<div class="col-sm-6">
 				<div class="progress">
 				 	<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
 				    <span class="sr-only">90% Complete (success)</span>
@@ -162,15 +136,15 @@
  					</div>
 				</div>
 				<div class="progress">
-				 	<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+				 	<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
 				    <span class="sr-only">90% Complete (success)</span>
 				     <h5>Javascript</h5>
  					</div>
 				</div>
 				<div class="progress">
-				 	<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+				 	<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
 				    <span class="sr-only">90% Complete (success)</span>
-				     <h5>Jquery</h5>
+				     <h5>jQuery</h5>
  					</div>
 				</div>
 			</div>
@@ -178,19 +152,19 @@
 	</div>
 	<!-- END SKILLS SECTION -->
 	<!-- PORTFOLIO SECTION -->
-	<div class="container" id="portfolio">
+	<div class="container-fluid" id="portfolio">
 		<div class="row mywork">
-			<h1>My Work...</h1>
+			<h1>My Work</h1>
 		</div>
 		<div class="row">
-			<div class="col-md-4">
-				<a href="images/hackathon2.jpg" data-lightbox="portfolio" data-title="Documentary Website"><img src="images/docsite.png" alt="Documentary Website" class="boxlight" onmouseover="this.src='images/Xdocsite.png'" onmouseout="this.src='images/docsite.png'"></a>
+			<div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+				<a href="images/docsiteinfo.png" data-lightbox="portfolio" data-title="Documentary Website"><img src="images/docsite.png" alt="Documentary Website" class="boxlight" onmouseover="this.src='images/Xdocsite.png'" onmouseout="this.src='images/docsite.png'"></a>
 			</div>
-			<div class="col-md-4">
-				<a href="images/hackathon2.jpg" data-lightbox="portfolio" data-title="Portfolio Website"><img src="images/portfolioThumbnail.png" alt="Portfolio Website" class="boxlight" onmouseover="this.src='images/Xportfoliosite.png'" onmouseout="this.src='images/portfolioThumbnail.png'"></a>
+			<div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+				<a href="images/portfoliositeinfo.png" data-lightbox="portfolio" data-title="Portfolio Website"><img src="images/portfoliosite.png" alt="Portfolio Website" class="boxlight" onmouseover="this.src='images/Xportfoliosite.png'" onmouseout="this.src='images/portfoliosite.png'"></a>
 			</div>
-			<div class="col-md-4"> 
-				<a href="images/hackathon2.jpg" data-lightbox="portfolio" data-title="Swede's Feeds Website"><img src="images/portfolioThumbnail.png" alt="Swede's Feeds Website" class="boxlight" onmouseover="this.src='images/Xswedessite.png'" onmouseout="this.src='images/portfolioThumbnail.png'"></a>
+			<div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2"> 
+				<img src="images/swedessite.png" alt="Swede's Feeds Website" class="boxlight" onmouseover="this.src='images/Xswedessite.png'" onmouseout="this.src='images/swedessite.png'"></a>
 			</div>
 		</div>
 	</div>
@@ -198,12 +172,12 @@
 	<!-- BLOG -->
 	<div class="container" id="blog">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
+			<div class="col-md-10 col-md-offset-1">
 				<h1>Check Out my Blog on Front-end Development</h1>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-4 col-md-offset-4">
+			<div class="col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 text-center">
 				<div class="btn btn-default btn-lg blog-btn">
 					<a href="http://www.devgirlblog.com/" target="_blank"><span>Blog Site  <i class="fa fa-external-link" aria-hidden="true"></i></span></a>
 				</div>
@@ -214,49 +188,41 @@
 	<!-- CONTACT FORM -->
 	<div class="container-fluid" id="contact">
   		<div class="row"> 
-   		 <h1>Contact Me</h1>
+   		 	<h1>Contact Me</h1>
   		</div>
-
-  	<div class="container">
     	<div class="row">
       		<form role="form" action="http://formspree.io/c.amantite@gmail.com" method="post">
-         	 <input type="hidden" name="_next" value="//site.io/thanks.html" />
-          	<input type="hidden" name="_subject" value="New submission!" />
-          	<input type="text" name="_gotcha" style="display:none" />
-			<!-- LEFT COL -->
-      		<div class="col-md-6">
-				<!-- Your Name -->
-          		<div class="form-group">
-           			<input type="text" class="form-control" name="name" id="InputName" placeholder="Your Name" required>
-          		</div>
-				<!-- Your Email -->
-          		<div class="form-group">
-            		<input type="email" class="form-control" id="InputEmail" name="_replyto" placeholder="Your Email" required>
-          		</div>
-				<!-- 4+3? -->
-          		<div class="form-group">
-            		<input type="text" class="form-control" name="InputReal" id="InputReal" placeholder="4+3= ?" required>
-         		</div>
-      		</div>
-		<!-- RIGHT COL -->
-			<!-- enter message -->
-        	<div class="col-md-6">
-                <div class="form-group">
-            		<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Your Message" required></textarea>
-                </div>
-				<!-- submit button -->
-          		<input type="submit" name="submit" id="submit" value="Send" class="btn btn-info pull-right btn-lg"> 
-       		</div>
+         		<input type="hidden" name="_next" value="//site.io/thanks.html" />
+          		<input type="hidden" name="_subject" value="New submission!" />
+          		<input type="text" name="_gotcha" style="display:none" />
+				<!-- left col -->
+      			<div class="col-sm-6">
+          			<div class="form-group">
+           				<input type="text" class="form-control" name="name" id="InputName" placeholder="Your Name" required>
+          			</div>
+          			<div class="form-group">
+            			<input type="email" class="form-control" id="InputEmail" name="_replyto" placeholder="Your Email" required>
+          			</div>
+          			<div class="form-group">
+            			<input type="text" class="form-control" name="InputReal" id="InputReal" placeholder="4+3= ?" required>
+         			</div>
+      			</div>
+				<!-- right col -->
+        		<div class="col-sm-6">
+              	  <div class="form-group">
+            			<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                	</div>
+          			<input type="submit" name="submit" id="submit" value="Send" class="btn btn-info pull-right btn-lg"> 
+       			</div>
       		</form>
       	</div>
-   		</div>
   	</div>
-<!-- END CONTACT FORM -->
-<!-- GOOGLE MAP -->
+	<!-- END CONTACT FORM -->
+	<!-- GOOGLE MAP -->
 	<div class='container-fluid map'>
 	 	<div class="row"> 
-	 		<div class='embed-container'>
-	 			<iframe src="http://mapbuildr.com/frame/bdwuvd" frameborder="0" height="350" width="1000"></iframe>
+	 		<div class='embed-container' id="map">
+	 			<iframe src="http://mapbuildr.com/frame/bdwuvd" frameborder="0" height="250" width="1000"></iframe>
 	 		</div>
 	 	</div>	 	
 	</div>
@@ -265,7 +231,7 @@
 	<div class="container-fluid" id="footer">
 		<div class="row">
 			<div class="col-md-12">
-				<p>©2016 - Hand coded and designed by Cassandra Amantite</p>
+				<p>©2016 - Hand coded and designed with <i class="fa fa-heart" aria-hidden="true"></i> by Cassandra Amantite</p>
 			</div>
 		</div>
 	</div>
@@ -278,6 +244,7 @@
 <script type="text/javascript" src="js/script.js"></script>
 <!-- Lightbox Javascript -->
 <script src="js/lightbox-plus-jquery.js"></script>
+
 </body>
 </html>
 
